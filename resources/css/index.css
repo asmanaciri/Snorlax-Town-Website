@@ -1,0 +1,350 @@
+body{
+    background-color: whitesmoke;
+    margin: 0;
+}
+.banner{
+    background-color: rgb(85, 85, 228);
+    height: 100vh;
+    
+    
+    
+    
+}
+img{
+    height: 200px;
+    width: 200px;
+    
+    margin: auto;
+    padding: 1.5em 0em 1.5em 0em;
+    display: block;
+    
+
+}
+h1{
+    color: whitesmoke;
+    text-align: center;
+   
+}
+div.banner > p {
+    color: white;
+    font-size: large;
+    text-align: center;
+    margin-bottom: 2em;
+}
+button{
+    margin: auto;
+    display: block;
+    padding: 0.5em;
+}
+span.title2{
+    font-size: 55px;
+    color: rgb(204, 61, 61);
+    font-weight: bold;
+    margin: 0.75em;
+    line-height: 1.5em;
+    font-variant: small-caps;
+    letter-spacing: 0.2em;
+}
+#bold{
+    font-weight: bold;
+    font-size: large;
+    margin-left: 8px;
+    color: wheat;
+    
+}
+
+#instructions{
+    color: lightsalmon;
+    margin-left: 2em;
+    font-size: larger;
+}
+div.content a:-webkit-any-link {
+    color: fuchsia;
+    cursor: pointer;
+    text-decoration: underline;
+}
+ul>li {
+    font-size: larger;
+}
+#guide{
+    font-weight: bold;
+    margin-left: 8px;
+    color: wheat;
+}
+ul{
+   
+    margin-left: 5em;
+    margin-top: 2em;
+    
+}
+li{
+    color:rgb(121, 44, 156) ;
+}
+#book{
+    list-style-type: "\1F4D6";
+}
+#music{
+    list-style-type: "\1F3A7";
+}
+#art{
+    list-style-type: "\1F3A8";
+}
+form{
+    margin-left: 8px;
+}
+.bookList {
+
+
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+    
+    
+    
+    
+    
+}
+.booklsit figure{
+    width: calc(100% / 6);
+    height: 20em;
+    margin: 0 1.5em 0 1.5em;
+}
+.bookList img{
+    /*width: calc(100% / 6);*/
+    height: 17em;
+    /*margin: 0 1em 0 1em;*/
+    
+
+}
+/*#hover:hover{
+    cursor: pointer;
+    width: 250px;
+    height: 370px;
+}*/
+  figure > a> img:hover{
+    cursor: pointer;
+    width: 210px;
+    height: 330px;
+
+}
+/*figure{
+    width: 200px;
+    margin-inline-start: 20px
+    margin-inline-end: 0px;
+    
+}*/
+figcaption{
+    display: none;
+
+}
+/*figure:hover figcaption{
+    display: block;
+    width: 400px;
+    margin-left: 3em;
+
+    background-color: lightslategray;
+    padding: 0.75em;
+    border-radius: 1em;
+    font-size: large;
+    font-style: oblique;
+    color: wheat;
+}*/
+
+figcaption{
+    display: block;
+    color: black;
+    margin-left: 1.5em;
+    font-weight: bold;
+    width: 10em;
+}
+figure{
+    margin-right: 1em;
+}
+
+/*figure.fyodor:hover figcaption{
+    display: block;
+    width: 400px;
+    margin-left: -15em;
+
+    background-color: lightslategray;
+    padding: 0.75em;
+    border-radius: 1em;
+    font-size: large;
+    font-style: oblique;
+    color: wheat;
+}*/
+
+
+
+
+
+figure>img{
+    margin: 0;
+}
+
+div.main-headers {
+    color: rgb(204, 61, 61);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;   
+    margin-bottom: 3em;
+    background-color: darkkhaki;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-variant-caps: small-caps;
+    letter-spacing: 0.4em;
+    font-weight: 600;
+    
+    
+}
+.sticky{
+    position: sticky;
+    top: 1%;
+    z-index: 1;
+}
+div.master-library{
+    border-top: medium solid brown ;
+    margin-top: 3.5em;
+}
+div.master-library > p{
+   margin-left: 2em;
+   font-family: serif;
+   font-size: x-large;
+}
+body{
+    background-color: midnightblue;
+   
+}
+div.content{
+    background-color: midnightblue;
+}
+div.master-library{
+    background-color: mintcream;
+}
+.box{
+    /*position: absolute;*/
+    /*top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+    width: calc(259px/3);
+    height: 98px;
+    background: url(telecharger2.png);
+    animation: animate 1.5s steps(3) infinite;
+    margin-top:0;
+    padding: 0;
+}
+#b1{
+    margin: auto;
+}
+
+@keyframes animate{
+    from{
+        background-position: 0;
+    }
+    to {
+        background-position: 259px ;
+    }
+}
+.box:hover{
+    animation-play-state: paused;
+    cursor: grab;
+}
+button{
+    border-radius: 20px;
+    border-color: rgb(182, 99, 150);
+}
+.music-library{
+    background-color: mintcream;
+}
+
+
+#trial{
+    margin: 1em;
+    border-radius: 55%;
+}
+.mini-container{
+    display: flex;
+    align-items: center;
+    /*background-color: rgba(38, 83, 12, 0.4);*/
+    width: 50%;
+    height: 13rem;
+    border-radius: 1rem;
+    margin-bottom: 2em;
+    
+}
+.music{
+    width: 100%;
+}
+.music audio{
+    width: 100%;
+    outline: none;
+    margin-right: 0;
+    padding-right: 0;
+
+}
+
+.music audio::-webkit-media-controls-enclosure{
+    background: none;
+}
+
+
+div.music-library{
+    border-top: medium solid brown;
+}
+div.mini-container::before{
+    content: "LAMP - 恋人へ  ";
+    padding-left: 4em;
+    font-weight: bolder;
+    width: 100px;
+    position: absolute;
+}
+/*div.mini-container::after{
+    content: "\2661";
+    font-size: 250%;
+    position: relative;
+    top: 25%;
+    right: 43%;
+}*/
+
+div.heart{
+    
+    text-align: center;
+    font-size: 200%;   
+}
+div.heart:hover{
+    
+    color: rgb(218, 79, 79);
+    
+    cursor: pointer;
+}
+
+.mini-container{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.mini-container:hover{
+    background-color: rgb(112, 112, 212);
+}
+.search-container {
+    max-width: 600px;
+    margin: 50px auto;
+}
+#btn1 {
+    display: block;
+    width: calc(100% - 24px); /*20px [ left & Right ] padding + 4px border [ left & Right ] */ 
+    font-size: 18px;
+    font-weight: 600;
+    color: #4b00ff;
+    padding: 10px;
+    border: 2px solid #a28cd6;
+    
+}
+
+
+
+
+
+
